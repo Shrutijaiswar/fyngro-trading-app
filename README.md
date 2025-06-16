@@ -1,24 +1,51 @@
-# trading-app
+# 💹 Trading Dashboard – Self-Built React Project
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern, responsive trading dashboard UI developed entirely from scratch using **React**, **Tailwind CSS**, and **shadcn/ui**. I built this project independently to simulate the core layout of a real-world trading platform like Binance or CoinDCX.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/shrutijaiswar18jan-gmailcoms-projects/v0-trading-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/HzJYt6gxHY5)
+The focus was on building a clean, professional, and scalable frontend from the ground up — no templates, no code generators, and no tutorials followed.
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🔧 Tech Stack
 
-## Deployment
+| Tech              | Purpose                                |
+|------------------|----------------------------------------|
+| **React**         | Component-based frontend framework     |
+| **Tailwind CSS**  | Utility-first CSS for fast styling     |
+| **shadcn/ui**     | Clean, accessible UI components        |
+| **Lucide Icons**  | Simple icon set for consistent visuals |
 
-Your project is live at:
+---
 
-**[https://vercel.com/shrutijaiswar18jan-gmailcoms-projects/v0-trading-app](https://vercel.com/shrutijaiswar18jan-gmailcoms-projects/v0-trading-app)**
+## 🖥️ Features I Built
 
-## Build your app
+- ✅ **Sidebar navigation** with routing placeholders (Dashboard, Markets, Wallet, etc.)
+- ✅ **Live trading pair header** (e.g., BTC/USD with icons)
+- ✅ **Trading chart placeholder** area – ready for API integration
+- ✅ **Buy/Sell order panel** with input fields and action buttons
+- ✅ **Recent trades list** simulating exchange feed
+- ✅ **Responsive layout** built entirely using Flexbox and Grid
+- ✅ **Dark mode ready** using Tailwind’s `dark:` variants
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/HzJYt6gxHY5](https://v0.dev/chat/projects/HzJYt6gxHY5)**
+## 🧑‍💻 About This Project
 
+I built this project solo to showcase my frontend skills in a real-world scenario. All JSX structure, component logic, and layout styling were implemented manually — no starter kits, AI tools, or UI template clones.
+
+I referenced real trading apps for visual cues but wrote all code myself to understand how to:
+
+- Manage layout structure with utility-first CSS
+- Modularize UI elements for reusability
+- Maintain responsiveness across screen sizes
+- Design with scalability in mind for future API/data integrations
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/trading-dashboard.git
+cd trading-dashboard
+npm install
+npm run dev
